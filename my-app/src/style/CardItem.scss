@@ -1,0 +1,29 @@
+.carditem-img {
+  max-width: 100%;
+  margin-right: 20px;
+}
+
+.carditem {
+  display: flex;
+  margin-right: 30px;
+
+  @media screen and (max-width: 767px) {
+    margin-bottom: 30px;
+  }
+}
+
+.carditem-content-number {
+  font-size: 45px;
+  color: hsl(233, 8%, 79%);
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.carditem-content-title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.carditem-content-desc {
+}

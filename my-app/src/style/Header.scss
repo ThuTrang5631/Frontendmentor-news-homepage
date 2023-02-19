@@ -17,6 +17,10 @@
   &:last-child {
     margin-right: 0;
   }
+
+  &:hover {
+    color: hsl(35, 77%, 62%);
+  }
 }
 
 @media screen and (max-width: 767px) {
