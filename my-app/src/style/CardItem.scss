@@ -1,6 +1,11 @@
 .carditem-img {
   max-width: 100%;
   margin-right: 20px;
+  width: 50%;
+  object-fit: cover;
+  @media screen and (max-width: 767px) {
+    width: 34%;
+  }
 }
 
 .carditem {
@@ -9,6 +14,7 @@
 
   @media screen and (max-width: 767px) {
     margin-bottom: 30px;
+    margin-right: 0;
   }
 }
 
@@ -17,13 +23,29 @@
   color: hsl(233, 8%, 79%);
   font-weight: 700;
   margin-bottom: 30px;
+  @media screen and (max-width: 767px) {
+    font-size: 30px;
+  }
 }
 
 .carditem-content-title {
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
+  cursor: pointer;
+  @media screen and (max-width: 767px) {
+    font-size: 15px;
+  }
+
+  &:hover {
+    color: hsl(5, 85%, 63%);
+  }
 }
 
 .carditem-content-desc {
+  color: hsl(236, 13%, 42%);
+  font-size: 15px;
+  @media screen and (max-width: 767px) {
+    font-size: 12px;
+  }
 }

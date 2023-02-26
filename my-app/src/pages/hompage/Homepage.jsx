@@ -3,6 +3,29 @@ import ImageWeb from "../../assets/image-web-3-desktop.jpg";
 import ImageMobile from "../../assets/image-web-3-mobile.jpg";
 import CardItem from "../../components/CardItem";
 import ImageGaming from "../../assets/image-gaming-growth.jpg";
+import ImageLaptop from "../../assets/image-top-laptops.jpg";
+import ImagePC from "../../assets/image-retro-pcs.jpg";
+
+const data = [
+  {
+    src: ImagePC,
+    number: "01",
+    title: "Reviving Retro PCs",
+    description: "What happens when old PCs are given modern upgrades?",
+  },
+  {
+    src: ImageLaptop,
+    number: "02",
+    title: "Top 10 Laptops of 2022",
+    description: "Our best picks for various needs and budgets",
+  },
+  {
+    src: ImageGaming,
+    number: "03",
+    title: "The Growth of Gaming",
+    description: "How to pandemic has sparked fresh opportunities.",
+  },
+];
 
 const Homepage = () => {
   return (
@@ -62,24 +85,14 @@ const Homepage = () => {
           </div>
         </section>
         <section className="homepage-wrap-card">
-          <CardItem
-            src={ImageGaming}
-            number="01"
-            title="Reviving Retro PCs"
-            description="What happens when old PCs are given modern upgrades?"
-          />
-          <CardItem
-            src={ImageGaming}
-            number="01"
-            title="Reviving Retro PCs"
-            description="What happens when old PCs are given modern upgrades?"
-          />
-          <CardItem
-            src={ImageGaming}
-            number="01"
-            title="Reviving Retro PCs"
-            description="What happens when old PCs are given modern upgrades?"
-          />
+          {data.map((item) => (
+            <CardItem
+              src={item.src}
+              number={item.number}
+              title={item.title}
+              description={item.description}
+            ></CardItem>
+          ))}
         </section>
       </main>
     </div>
