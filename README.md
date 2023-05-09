@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-Live Site URL: https://news-homepage-frontendmentor-solution.netlify.app/
+Live Site URL: (https://news-homepage-frontendmentor-solution.netlify.app/)
 
 ## My process
 
