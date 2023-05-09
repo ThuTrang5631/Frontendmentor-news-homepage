@@ -35,6 +35,7 @@
 }
 
 .homepage-title {
+  font-family: "Inter-ExtraBold";
   font-weight: 800;
   font-size: 45px;
   margin-right: 20px;
@@ -49,6 +50,7 @@
 
 .homepage-wrap-desc {
   width: 50%;
+  font-family: "Inter-Regular";
   font-size: 15px;
   color: hsl(236, 13%, 42%);
   display: flex;
@@ -93,6 +95,7 @@
   color: hsl(35, 77%, 62%);
   font-size: 40px;
   margin-bottom: 20px;
+  font-family: "Inter-ExtraBold";
 }
 
 .homepage-right-card-title {
@@ -100,6 +103,8 @@
   margin-bottom: 10px;
   font-size: 20px;
   font-weight: 700;
+  font-family: "Inter-Bold";
+
   &:hover {
     color: hsl(35, 77%, 62%);
     cursor: pointer;
@@ -110,6 +115,7 @@
 }
 
 .homepage-right-card-desc {
+  font-family: "Inter-Regular";
   color: hsl(233, 8%, 79%);
   font-size: 15px;
   font-weight: 400;

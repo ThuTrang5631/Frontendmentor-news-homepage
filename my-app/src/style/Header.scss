@@ -16,6 +16,7 @@
   color: hsl(236, 13%, 42%);
   margin-right: 40px;
   font-weight: 400;
+  font-family: "Inter-Regular";
 
   &:last-child {
     margin-right: 0;
@@ -37,6 +38,15 @@
 
   @media screen and (max-width: 767px) {
     display: block;
+  }
+}
+
+.header-button-menu {
+  display: none;
+  @media screen and (max-width: 767px) {
+    display: block;
+    border: none;
+    background-color: transparent;
     width: 30px;
   }
 }

@@ -1,6 +1,27 @@
 @import "./Header.scss";
 @import "./Homepage.scss";
 @import "./CardItem.scss";
+@import "./NavbarMobile.scss";
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../fonts/static/Inter-Bold.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: "Inter-ExtraBold";
+  src: url("../fonts/static/Inter-ExtraBold.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../fonts/static/Inter-Regular.ttf") format(truetype);
+}
+
+@font-face {
+  font-family: "Inter-thin";
+  src: url("../fonts/static/Inter-VariableFont_slnt,wght.ttf") format(truetype);
+}
 
 img {
   display: block;

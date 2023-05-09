@@ -1,0 +1,49 @@
+.NavbarMobile {
+  background-color: #fff;
+  height: 100%;
+  padding: 40px 20px;
+  position: absolute;
+  width: 60%;
+  right: 0;
+}
+
+.NavbarMobile-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 20px;
+}
+
+.Navbar-backdrop {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  z-index: 999;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+
+.NavbarMobile-link {
+  font-family: "Inter-Regular";
+  font-size: 23px;
+  color: black;
+  font-weight: 500;
+  display: block;
+  margin-bottom: 25px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  &:hover {
+    color: hsl(5, 85%, 63%);
+  }
+}
+
+.NavbarMobile-wrap-link {
+  margin-top: 100px;
+}

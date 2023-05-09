@@ -19,6 +19,7 @@
 }
 
 .carditem-content-number {
+  font-family: "Inter-Bold";
   font-size: 45px;
   color: hsl(233, 8%, 79%);
   font-weight: 700;
@@ -32,6 +33,7 @@
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
+  font-family: "Inter-ExtraBold";
   cursor: pointer;
   @media screen and (max-width: 767px) {
     font-size: 15px;
@@ -45,6 +47,7 @@
 .carditem-content-desc {
   color: hsl(236, 13%, 42%);
   font-size: 15px;
+  font-family: "Inter-Regular";
   @media screen and (max-width: 767px) {
     font-size: 12px;
   }
