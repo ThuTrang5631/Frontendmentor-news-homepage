@@ -1,6 +1,6 @@
 # Frontend Mentor - News homepage solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -12,7 +12,6 @@ This is a solution to the [News homepage challenge on Frontend Mentor](https://w
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
 - [Author](#author)
-
 
 ## Overview
 
@@ -26,16 +25,17 @@ Users should be able to:
 ### Screenshot
 
 #### Desktop:
+
 ![image](https://user-images.githubusercontent.com/70875419/237056312-97a42495-2c8c-4ed7-a3d8-e0b903b04de3.png)
 
 #### Mobile
+
 ![image](https://user-images.githubusercontent.com/70875419/237056581-a87afb7d-8b39-4b6f-aa9e-c19f0bea4e22.png)
-           ![image](https://user-images.githubusercontent.com/70875419/237056746-e07256a9-76cf-4007-a9e5-857a196c35c8.png)
+![image](https://user-images.githubusercontent.com/70875419/237056746-e07256a9-76cf-4007-a9e5-857a196c35c8.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://news-homepage-frontendmentor-solution.netlify.app/
 
 ## My process
 
@@ -53,7 +53,8 @@ Users should be able to:
 After this challenge, I understand about flexbox, grid. I also learn reactjs and understand it a bit better. I know how to make responsive web on devices: desktop, tablet, mobile and set the files to code.
 
 Create a components in file `.jsx`, such as:
-``` const CardItem = ({ src, number, title, description }) => {
+
+```const CardItem = ({ src, number, title, description }) => {
   return (
     <div className="carditem">
       <img className="carditem-img" src={src} alt="carditem-image"></img>
@@ -66,7 +67,7 @@ Create a components in file `.jsx`, such as:
   );
 };
 
-export default CardItem; 
+export default CardItem;
 ```
 
 Create folder style to containe files scss:
